@@ -64,8 +64,21 @@ I want to develop a library called "ai-question-for-project", and its main funct
 It's a CLI script.
 The project does not use TypeScript.
 The project already uses the following dependencies (but feel free to add more):
-fs-extra,read-pkg,update-notifier,yargs-parser.
+directory-tree,fs-extra,read-pkg,update-notifier,yargs-parser.
 Could you help me write the core code in the context of English?
+Here is the directory structure of the project:
+└── ai-question-for-project
+    ├── bin
+    │   └── index.js
+    ├── biome.json
+    ├── knip.json
+    ├── lib
+    │   ├── index.js
+    │   ├── mainCode.js
+    │   ├── package.js
+    │   ├── run.js
+    │   └── tmpl.js
+    └── package.json
 ```
 
 ## How It Works
