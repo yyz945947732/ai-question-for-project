@@ -18,7 +18,7 @@
   </a>
 </p>
 
-AI-generated questions about creating and writing code for project files.
+Generate AI-oriented questions about creating project code based on the project's file information.
 
 ## Features
 

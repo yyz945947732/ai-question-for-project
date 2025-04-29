@@ -1,6 +1,6 @@
 {
   "name": "ai-question-for-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate AI-oriented questions about creating project code based on the project's file information.",
   "homepage": "https://github.com/yyz945947732/ai-question-for-project",
   "scripts": {
