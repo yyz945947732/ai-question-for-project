@@ -1,0 +1,21 @@
+I want to develop a library called "ai-question-for-project", and its main functionality is "Generate AI-oriented questions about creating project code based on the project's file information.".
+It's a CLI script.
+The project does not use TypeScript.
+The project already uses the following dependencies (but feel free to add more):
+fs-extra,read-pkg,update-notifier,yargs-parser.
+Could you help me write the core code in the context of English?
+Here are the files in the project:
+- .editorconfig
+- .git (Directory)
+- .gitignore
+- LICENSE
+- QS.CODE.txt
+- QS.README.txt
+- README.md
+- bin (Directory)
+- biome.json
+- knip.json
+- lib (Directory)
+- node_modules (Directory)
+- package.json
+- pnpm-lock.yaml

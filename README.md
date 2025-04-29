@@ -18,12 +18,19 @@
   </a>
 </p>
 
-> AI-generated questions about creating and writing code for project files.
+AI-generated questions about creating and writing code for project files.
+
+## Features
+
+- 🛠️ Automatically analyze project structure.
+- 🧠 Generate AI-ready questions for code generation.
+- 📦 Lightweight CLI script.
+- 🚀 Easy to integrate into your workflow.
 
 ## Install
 
 ```sh
-npm install --global ai-question-for-project
+npm install -g ai-question-for-project
 ```
 
 ## Usage
@@ -34,10 +41,36 @@ npx aiqs [options]
 
 ### Options
 
-```sh
--h --help              Print this help
--v --version           Print ai-question-for-project version number
+| Option      | Alias | Description                        |
+| ----------- | ----- | ---------------------------------- |
+| `--help`    | `-h`  | Show help message.                 |
+| `--version` | `-v`  | Show current version.              |
+| `--code`    | `-c`  | Generate code-related questions.   |
+| `--readme`  | `-r`  | Generate README-related questions. |
+
+### Example
+
+```bash
+# This will generate code-related questions to QS.CODE.txt file.
+npx aiqs --code
+# or
+npx aiqs
 ```
+
+#### output
+
+```txt
+I want to develop a library called "ai-question-for-project", and its main functionality is "Generate AI-oriented questions about creating project code based on the project's file information.".
+It's a CLI script.
+The project does not use TypeScript.
+The project already uses the following dependencies (but feel free to add more):
+fs-extra,read-pkg,update-notifier,yargs-parser.
+Could you help me write the core code in the context of English?
+```
+
+## How It Works
+
+The tool reads your project's structure and `package.json`, then automatically generates meaningful, AI-targeted questions to assist in creating or improving your project code.
 
 ## LICENSE
 

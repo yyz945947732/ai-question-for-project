@@ -1,3 +1,9 @@
+I want to write documentation for my project "ai-question-for-project", and its description is "Generate AI-oriented questions about creating project code based on the project's file information.".
+It's a CLI script.
+Need to include badges and MIT license.
+Please Written in a popular style.
+Here is the code of the project's entry file that you can use for reference（For reference only, no need to display the source code.）:
+
 #!/usr/bin/env node
 
 import fs from 'fs-extra';
@@ -33,3 +39,7 @@ cli(options).then(
   () => process.exit(0),
   ({ code }) => process.exit(Number.isInteger(code) ? code : 1)
 );
+
+
+Could you help me write the README in English?
+It's best to directly display it in markdown (md) format for me.

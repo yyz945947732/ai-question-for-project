@@ -1,7 +1,7 @@
 {
   "name": "ai-question-for-project",
   "version": "1.0.0",
-  "description": "AI-generated questions about creating and writing code for project files.",
+  "description": "Generate AI-oriented questions about creating project code based on the project's file information.",
   "homepage": "https://github.com/yyz945947732/ai-question-for-project",
   "scripts": {
     "start": "node ./bin/index.js",
@@ -27,11 +27,19 @@
   },
   "dependencies": {
     "fs-extra": "^11.1.1",
+    "read-pkg": "^9.0.1",
     "update-notifier": "^6.0.2",
     "yargs-parser": "^21.1.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.1.2",
     "@types/fs-extra": "^11.0.1",
-    "@biomejs/biome": "^1.1.2"
-  }
+    "knip": "^5.50.5"
+  },
+  "keywords": [
+    "ai-question-generator",
+    "ai-question",
+    "ai",
+    "chatgpt"
+  ]
 }
