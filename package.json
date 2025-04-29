@@ -26,6 +26,7 @@
     "url": "git+https://github.com/yyz945947732/ai-question-for-project.git"
   },
   "dependencies": {
+    "directory-tree": "^3.5.2",
     "fs-extra": "^11.1.1",
     "read-pkg": "^9.0.1",
     "update-notifier": "^6.0.2",
