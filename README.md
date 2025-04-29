@@ -22,19 +22,19 @@
 
 ## Install
 
-```bash
+```sh
 npm install --global ai-question-for-project
 ```
 
 ## Usage
 
-```bash
+```sh
 npx aiqs [options]
 ```
 
 ### Options
 
-```bash
+```sh
 -h --help              Print this help
 -v --version           Print ai-question-for-project version number
 ```
